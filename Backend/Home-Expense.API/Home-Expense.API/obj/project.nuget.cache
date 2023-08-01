@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "pU+r46emaJUCUawu/6xGBuDB7al8vVOs9MmzHP6n5LMijOxsheHojymhe5oufr7QRu2msE8R0+Qy7j5PcNTviQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\158208\\OneDrive - Arrow Electronics, Inc\\Desktop\\.net full stack\\.Net core\\Project\\Backend\\Home-Expense.API\\Home-Expense.API\\Home-Expense.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\158208\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\158208\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\158208\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\158208\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\158208\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\158208\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
