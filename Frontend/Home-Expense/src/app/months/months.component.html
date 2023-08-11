@@ -1,29 +1,30 @@
 <div class="months-toolbar">
     <div>
-        <button class="btn btn-outline-secondary">
+        <button class="btn btn-outline-secondary" (click)="addNextMonth()">
             Add Next Month
         </button>
 
-        <button class="btn btn-outline-secondary">
+        <button class="btn btn-outline-secondary" (click)="addMonthByName(yearField.value, monthField.value); yearField.value=''; monthField.value=''">
             <span class="me-1">Add Month</span>
             <i class="bx bxs-right-arrow"></i>
         </button>
 
         <form class="row">
             <div class="col">
-                <input type="text" class="form-control" placeholder="Year">
+                <input #yearField type="text" class="form-control" placeholder="Year">
             </div>
             <div class="col">
-                <input type="text" class="form-control" placeholder="Month Name">
+                <input #monthField type="text" class="form-control" placeholder="Month Name">
             </div>
         </form>
 
         <button class="btn btn-outline-danger">
             <i class="bx bxs-left-arrow"></i>
-            <span class="ms-1">Delete Month</span>
+            <span class="ms-1" (click)="deleteMonth(yearField.value, monthField.value); yearField.value=''; monthField.value=''">Delete Month</span>
         </button>
     </div>
 
 </div>
-<app-month></app-month>
-<app-month></app-month>
+<app-month *ngFor="let month of months" [month] = "month" ></app-month>
+
+
